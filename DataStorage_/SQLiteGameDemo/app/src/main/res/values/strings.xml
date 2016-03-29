@@ -1,0 +1,24 @@
+<resources>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">游戏玩家管理</string>
+    <string name="add">添加</string>
+    <string name="update_info">提示：您可以修改玩家，序号不能修改，修改完成后单击保存按钮即可，否则单击取消按钮返回列表界面</string>
+    <string name="delete">删除</string>
+    <string name="edit">修改</string>
+    <string name="hint_input_player_name">请输入玩家名称</string>
+    <string name="hint_input_player_score">请输入玩家分数</string>
+    <string name="hint_input_player_level">请输入玩家关卡数</string>
+    <string name="cancel">取消</string>
+    <string name="update">更新</string>
+    <string name="save">保存</string>
+    <string name="id">序号：</string>
+    <string name="player">玩家：</string>
+    <string name="score">分数：</string>
+    <string name="level">关卡:</string>
+    <string name="not_data">not data</string>
+    <string name="title_new_game_player">新增游戏玩家</string>
+    <string name="menu_edit_delete">修改/删除</string>
+
+</resources>

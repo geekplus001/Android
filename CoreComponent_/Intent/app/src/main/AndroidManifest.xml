@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ben.intent" >
+
+   <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <!--<activity android:name=".MainActivity" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <activity android:name=".Main2Activity" >
+            <intent-filter android:priority="-1" >
+                <action android:name="com.ben.intent.MY_Action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main3Activity" >
+            <intent-filter android:priority="2" >
+                <action android:name="com.ben.intent.MY_Action" />
+                <action android:name="com.ben.intent.MY_Action2" />
+                <action android:name="com.ben.intent.MY_Action3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.ben.intent.MY_CATEGORY" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main4Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="www.baidu.com"
+                    android:mimeType="text/html"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name=".MainAActivity" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".MainBActivity"
+            android:launchMode="standard" >
+        </activity>
+        <activity android:name=".Main5Activity" >
+        </activity>
+        <activity android:name=".Main6Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

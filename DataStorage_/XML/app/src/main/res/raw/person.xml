@@ -1,0 +1,16 @@
+<ben>
+	<person personid="1">
+	<name>ben</name>
+	<age>18</age>
+	<sex>男</sex>
+	<tel>18039223258</tel>
+	</person>
+
+
+	<person personid="2">
+	<name>long</name>
+	<age>18</age>
+	<sex>女</sex>
+	<tel>13460639215</tel>
+	</person>
+</ben>

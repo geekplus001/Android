@@ -1,0 +1,19 @@
+mql -u root-p
+show variables like '%dir%';
+set autocommit=false;
+${requsetScope.contextPath}/
+
+netstat -aon|findstr 5037
+
+adb -h
+
+
+<script type="text/javascript">
+function deleteUser(){
+    //先获取到userId的值，不知道你具体怎么弄的，反正可以这样做就ok了
+    if(confirm("确认要删除吗？")){
+             window.location="DeleteUserServlet?userId=${marketUser.userId}";
+             //window.location.href="DeleteUserServlet?userId=${marketUser.userId}"
+    }
+}
+</script>
