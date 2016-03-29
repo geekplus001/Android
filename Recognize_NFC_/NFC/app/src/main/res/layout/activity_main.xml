@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择要启动的程序"
+        android:onClick="selectStartAppClick"
+        android:id="@+id/button_selectapp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView_bg"
+        android:layout_below="@+id/button_selectapp"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/nfc"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="写入标签"
+        android:id="@+id/button_write"
+        android:onClick="writeClick"
+        android:layout_alignTop="@+id/button_selectapp"
+        android:layout_toEndOf="@+id/button_selectapp" />
+</RelativeLayout>

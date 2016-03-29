@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <array name="city">
+        <item>北京</item>
+        <item>上海</item>
+        <item>广州</item>
+        <item>天津</item>
+        <item>大连</item>
+        <item>郑州</item>
+    </array>
+</resources>
