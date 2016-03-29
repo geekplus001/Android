@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mylocation"
+        android:orderInCategory="10"
+        android:showAsAction="never"
+        android:title="我的位置"></item>
+
+    <item android:id="@+id/start_track"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="开始跟踪"></item>
+
+    <item android:id="@+id/end_track"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="结束跟踪"></item>
+
+    <item android:id="@+id/track_back"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="跟踪回放"></item>
+</menu>
